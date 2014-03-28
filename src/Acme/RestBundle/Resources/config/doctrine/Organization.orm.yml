@@ -1,0 +1,15 @@
+Acme\RestBundle\Entity\Organization:
+    type: entity
+    table: null
+    repositoryClass: Acme\RestBundle\Entity\OrganizationRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        name:
+            type: string
+            length: 255
+    lifecycleCallbacks: {  }
